@@ -27,6 +27,14 @@ public class MenuIU extends JFrame {
         jugarButton.setPreferredSize(new Dimension(200, 50));
         paraQueSirveButton.setPreferredSize(new Dimension(200, 50));
         
+        
+        comoJugarButton.setBackground(Color.LIGHT_GRAY);
+        comoJugarButton.setForeground(Color.BLACK);
+        jugarButton.setBackground(Color.GREEN);
+        jugarButton.setForeground(Color.WHITE);
+        paraQueSirveButton.setBackground(Color.BLUE);
+        paraQueSirveButton.setForeground(Color.WHITE);
+        
 
         // Agregar los botones al panel
         buttonPanel.add(Box.createHorizontalGlue()); // Espacio en blanco a la izquierda
@@ -39,6 +47,10 @@ public class MenuIU extends JFrame {
 
         add(buttonPanel);
     }
+    
+    
+    
+    
 
     public JButton getComoJugarButton() {
         return comoJugarButton;
