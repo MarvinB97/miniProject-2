@@ -1,7 +1,11 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * ------------------------------------------------------------
+ * Name Proyecto: miniProyecto-1
+ * nombre participantes: Xavier , Marvin Nuñez
+ * File: Main.java
+ * Relaciones: clase principal en donde se ejecuta el codigo
+ * Ultima modificacion 06-10-23
+ * ------------------------------------------------------------
  */
 
 package Modelo;
